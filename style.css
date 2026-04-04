@@ -18,6 +18,12 @@ header {
     text-align: center;
 }
 
+header h1 {
+    font-size: 24px; /* 好きな大きさに変更 */
+    font-weight: bold;
+    margin: 0;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
