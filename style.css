@@ -67,12 +67,13 @@ nav ul li a {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 25px;
-    background: #fff;
-    color: #4da3ff;
+    background: #5865F2; /* Discordカラー */
+    color: white;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
 }
+
 
 /* ============================
    コンテンツ共通
