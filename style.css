@@ -234,3 +234,22 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
+header.small {
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#toTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: #4da3ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    display: none;
+    cursor: pointer;
+}
