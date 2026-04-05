@@ -263,3 +263,43 @@ header.small {
     display: none;
     cursor: pointer;
 }
+
+/* ▼ボタン */
+.menu-toggle {
+    display: none;
+    background: #4da3ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 18px;
+}
+
+/* ▼ボタン */
+.menu-toggle {
+    display: none;
+    background: #4da3ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 18px;
+}
+
+/* スマホ時だけ表示 */
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* 最初は隠す */
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul.show {
+        display: flex; /* ▼を押したら表示 */
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+

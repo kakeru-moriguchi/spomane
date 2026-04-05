@@ -22,3 +22,11 @@ window.addEventListener("scroll", () => {
 toTop.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+// ▼メニュー開閉（←ここを一番下に追加）
+const menuBtn = document.querySelector(".menu-toggle");
+const navList = document.querySelector("nav ul");
+
+menuBtn.addEventListener("click", () => {
+    navList.classList.toggle("show");
+});
