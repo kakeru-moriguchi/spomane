@@ -66,13 +66,14 @@ nav ul li a {
 .cta-btn {
     display: inline-block;
     margin-top: 20px;
-    padding: 12px 25px;
-    background: #5865F2; /* Discordカラー */
+    padding: 18px 35px; /* ← ボタンを大きくするポイント */
+    background: #5865F2;
     color: white;
-    border-radius: 25px;
+    border-radius: 30px; /* ← 丸みを強くして存在感UP */
     text-decoration: none;
     font-weight: bold;
-}
+    font-size: 20px; /* ← 文字を大きく */
+}}
 
 
 /* ============================
